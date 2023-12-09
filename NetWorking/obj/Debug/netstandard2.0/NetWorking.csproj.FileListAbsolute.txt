@@ -1,0 +1,16 @@
+C:\Users\tellu\source\repos\NetWorking\NetWorking\obj\Debug\netstandard2.0\NetWorking.csproj.AssemblyReference.cache
+C:\Users\tellu\source\repos\NetWorking\NetWorking\obj\Debug\netstandard2.0\NetWorking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tellu\source\repos\NetWorking\NetWorking\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\tellu\source\repos\NetWorking\NetWorking\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\tellu\source\repos\NetWorking\NetWorking\obj\Debug\netstandard2.0\PicOD.xaml.g.cs
+C:\Users\tellu\source\repos\NetWorking\NetWorking\obj\Debug\netstandard2.0\NetWorking.AssemblyInfoInputs.cache
+C:\Users\tellu\source\repos\NetWorking\NetWorking\obj\Debug\netstandard2.0\NetWorking.AssemblyInfo.cs
+C:\Users\tellu\source\repos\NetWorking\NetWorking\obj\Debug\netstandard2.0\NetWorking.csproj.CoreCompileInputs.cache
+C:\Users\tellu\source\repos\NetWorking\NetWorking\bin\Debug\netstandard2.0\NetWorking.deps.json
+C:\Users\tellu\source\repos\NetWorking\NetWorking\bin\Debug\netstandard2.0\NetWorking.dll
+C:\Users\tellu\source\repos\NetWorking\NetWorking\bin\Debug\netstandard2.0\ref\NetWorking.dll
+C:\Users\tellu\source\repos\NetWorking\NetWorking\bin\Debug\netstandard2.0\NetWorking.pdb
+C:\Users\tellu\source\repos\NetWorking\NetWorking\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\tellu\source\repos\NetWorking\NetWorking\obj\Debug\netstandard2.0\NetWorking.dll
+C:\Users\tellu\source\repos\NetWorking\NetWorking\obj\Debug\netstandard2.0\refint\NetWorking.dll
+C:\Users\tellu\source\repos\NetWorking\NetWorking\obj\Debug\netstandard2.0\NetWorking.pdb

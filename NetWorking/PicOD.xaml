@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NetWorking.PicOD">
+    <StackLayout>
+        <StackLayout Padding="10" Margin="10">
+            <Label Text="Астрономическая картина дня" HorizontalTextAlignment="Center" FontSize="24" TextColor="WhiteSmoke"></Label>
+            <StackLayout Orientation="Horizontal" HeightRequest="75">
+                <Label Text="Если вам нужны картины для периода, то отметьте галочку" FontSize="20" TextColor="WhiteSmoke"></Label>
+                <CheckBox x:Name="chkbx" CheckedChanged="CheckBox_CheckedChanged"></CheckBox>
+            </StackLayout>
+
+            <Label Margin="0,10,0,10" x:Name="labeltxt" Text="Укажите день, для которого нужна картина: " TextColor="WhiteSmoke"></Label>
+            <DatePicker x:Name="dateP" TextColor="WhiteSmoke"></DatePicker>
+            <DatePicker x:Name="start_date" IsVisible="false" TextColor="WhiteSmoke"></DatePicker>
+            <DatePicker x:Name="end_date" IsVisible="false" TextColor="WhiteSmoke"></DatePicker>
+
+            <Button Text="Посмотреть картины" Clicked="Button_Clicked" />
+        </StackLayout>
+        <StackLayout Margin="0,0,0,15">
+            <ListView RowHeight="400" WidthRequest="350" HorizontalOptions="Center" VerticalOptions="Center" x:Name="taskList" ItemsSource="{Binding}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="DarkSlateBlue" HeightRequest="1000" WidthRequest="1000">
+                                    <StackLayout BackgroundColor="Black" Padding="5" Margin="5">
+                                        <!--<Label TextColor="WhiteSmoke" Text="{Binding url}" FontSize="18" />-->
+                                        <Label Text="{Binding title}" TextColor="WhiteSmoke" Margin="0,0,0,0" HorizontalTextAlignment="Center" FontSize="20"></Label>
+                                        <Image Source="{Binding url}" HeightRequest="300" Margin="0,0,0,0"></Image>
+                                        <Label Text="{Binding date}" TextColor="WhiteSmoke" Margin="0,0,0,0"></Label>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
